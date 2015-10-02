@@ -1,0 +1,38 @@
+h1 {
+    font-size: 30px;
+    color: #E0330C;
+}
+
+.profile-picture {
+    float: right;
+    border: 1px solid #E0330C;
+    max-width: 200px;
+}
+
+.content {
+    padding: 0.5%;
+    min-height: 80%;
+    width: 70%;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+}
+
+.navigation {
+    padding: 0.5%;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    min-height: 20%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #E0330C;
+}

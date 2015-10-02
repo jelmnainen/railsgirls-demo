@@ -1,0 +1,36 @@
+All in all: written by a coder to a coder
+    -links to mozilla docs are not very encouraging
+
+/installation
+should
+-Select the option "Add Ruby executables to your PATH" in the installer
+and
+-Ruby 2.2 is not yet supported by dm-sqlite-adapter (do_sqlite3-0.10.16 does not include the binary for it),
+    so you must use Ruby 2.1 or earlier
+	-the linked rubyinstaller automatically installs 2.1.7, is this necessary or does it relate to other methods of install?
+be indented one step further?
+
+/html
+	-minimal HTML page
+		-how do I open a my-page.html in a browser?
+	-basic HTML elements
+		-how do I get an image I can use?
+		-where can I get additional info and examples on how to use the tags?
+
+/css
+	-custom styles
+		-how to point to the css file?
+		-the solution picture is misleading because in html tutorial the image is added below text,
+         but now it should be before text for float to take effect
+
+/templating
+    -"every piece of knowledge must have a single, unambiguous, authoritative representation within a system" WTFFF
+        -> should be "don't write the same stuff twice"
+    -FIXME: there is a HUGE gap in templating section where we just jump to
+     "yeah, find out how sinatra server serves static files". This is impossible for most.
+    -"Check the source code of the page in your web browser" -> how?
+    -"Create a directly" -> "create a directory"
+    -"Now you can move the top and bottom parts of the code" -> what are 'top' and 'bottom'?
+    -what is dynamically generated data?
+    -change language in "First create a route for /pictures.html which stores" to "Let's create..." to avoid confusion about if
+     the participant should do this herself or if we're going to show her how it's done
